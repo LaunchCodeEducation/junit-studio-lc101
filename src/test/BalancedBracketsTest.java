@@ -9,7 +9,7 @@ public class BalancedBracketsTest {
     //TODO: add tests here
     @Test
     public void emptyTest() {
-        assertEquals(10, 10, .001);
+        assertEquals(true, true);
     }
 
 
