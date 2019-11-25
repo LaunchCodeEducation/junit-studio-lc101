@@ -28,12 +28,6 @@ public class BalancedBracketsTest {
      *
      * The string may contain non-bracket characters as well.
      *
-     * These strings have balanced brackets:
-     *  "[LaunchCode]", "Launch[Code]", "[]LaunchCode", "", "[]"
-     *
-     * While these do not:
-     *   "[LaunchCode", "Launch]Code[", "[", "]["
-     *
      */
     //TODO: add tests here
 
