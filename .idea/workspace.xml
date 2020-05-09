@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/main/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BalancedBrackets.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/main/BalancedBrackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-studio-lc101/main/BalancedBrackets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BalancedBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +30,14 @@
   </component>
   <component name="ProjectId" id="1Snvdtr8oVEcWvMSjy8Jh12C3wW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last.edited.regexp" value="asdhjkah[asdasds]sdfsdf" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -55,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedBracketsTest.emptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BalancedBracketsTest.shouldBeTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
         <pattern>
@@ -65,7 +81,58 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="emptyTest" />
+      <option name="METHOD_NAME" value="shouldBeTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalancedBracketsTest.shouldBeTrueLeftBracketRightBracketString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="shouldBeTrueLeftBracketRightBracketString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalancedBracketsTest.shouldBeTrueLeftBracketStringRightBracket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="shouldBeTrueLeftBracketStringRightBracket" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalancedBracketsTest.shouldBeTrueStringLeftBracketStringRightBracket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="shouldBeTrueStringLeftBracketStringRightBracket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -100,7 +167,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BalancedBracketsTest" />
+<<<<<<< Updated upstream
         <item itemvalue="JUnit.BalancedBracketsTest.emptyTest" />
+=======
+        <item itemvalue="JUnit.BalancedBracketsTest.shouldBeTrue" />
+        <item itemvalue="JUnit.BalancedBracketsTest.shouldBeTrueLeftBracketStringRightBracket" />
+        <item itemvalue="JUnit.BalancedBracketsTest.shouldBeTrueLeftBracketRightBracketString" />
+        <item itemvalue="JUnit.BalancedBracketsTest.shouldBeTrueStringLeftBracketStringRightBracket" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -118,9 +192,40 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
     <state x="1239" y="638" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589028211614">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1239" y="638" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1589028211614" />
+=======
+    <state x="1801" y="627" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588891906331">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1801" y="627" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1588891906331" />
+    <state width="1048" height="166" key="GridCell.Tab.0.bottom" timestamp="1588903592407">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1048" height="166" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1588903592407" />
+    <state width="1048" height="166" key="GridCell.Tab.0.center" timestamp="1588903592406">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1048" height="166" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1588903592406" />
+    <state width="1048" height="166" key="GridCell.Tab.0.left" timestamp="1588903592406">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1048" height="166" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1588903592406" />
+    <state width="1048" height="166" key="GridCell.Tab.0.right" timestamp="1588903592407">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1048" height="166" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1588903592407" />
+    <state x="1092" y="449" key="RollbackChangesDialog" timestamp="1588898836131">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1092" y="449" key="RollbackChangesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1588898836131" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1588893458661">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1588893458661" />
+>>>>>>> Stashed changes
   </component>
 </project>
