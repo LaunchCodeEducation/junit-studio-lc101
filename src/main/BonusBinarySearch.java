@@ -12,19 +12,20 @@ public class BonusBinarySearch {
      * @return index of search item if it's found, -1 if not found
      */
     public static int binarySearch(int[] sortedNumbers, int n) {
-        int right = sortedNumbers.length - 1;
-        int left = 0;
-        while (right >= left) {
-            int mid = left + ((right - left) / 2);
-            if (sortedNumbers[mid] > n) {
-                right = mid;
-            } else if (sortedNumbers[mid] < n) {
-                left = mid;
+        int min = 0;
+        int max = sortedNumbers.length - 1;
+
+        int guess = (min + max) / 2;
+
+        while (min <= max) {
+            if (sortedNumbers[guess] == n) {
+                return guess;
+            } else if (sortedNumbers[guess] < n) {
+                min = ++guess;
             } else {
-                return mid;
+                max = --guess;
             }
         }
         return -1;
     }
-
 }
