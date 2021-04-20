@@ -6,6 +6,8 @@
 # User-specific stuff:
 .idea/workspace.xml
 .idea/tasks.xml
+.idea/misc.xml
+
 
 # Sensitive or high-churn files:
 .idea/dataSources/
@@ -29,6 +31,7 @@
 ## Plugin-specific files:
 
 # IntelliJ
+.idea/
 /out/
 
 # mpeltonen/sbt-idea plugin
