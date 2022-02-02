@@ -52,4 +52,8 @@ public class BalancedBracketsTest {
     public void reverseOnlyBracketsReturnsFalse(){
         assertFalse(BalancedBrackets.hasBalancedBrackets("]["));
     }
+    @Test
+    public void reverseBracketsSurroundedByContentReturnsFalse(){
+        assertFalse(BalancedBrackets.hasBalancedBrackets("Launch][Code"));
+    }
 }
