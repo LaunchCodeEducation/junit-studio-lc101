@@ -40,5 +40,13 @@ public class BalancedBracketsTest {
     public void singleOpeningBracketWithNoContentReturnsFalse(){
         assertFalse(BalancedBrackets.hasBalancedBrackets("["));
     }
+    @Test
+    public void singleClosingBracketWithContentReturnsFalse(){
+        assertFalse(BalancedBrackets.hasBalancedBrackets("LaunchCode]"));
+    }
+//    @Test
+//    public void singleClosingBracketWithNoContentReturnsFalse(){
+//        assertFalse(BalancedBrackets.hasBalancedBrackets("]"));
+//    }
 
 }
