@@ -32,9 +32,9 @@ public class BalancedBracketsTest {
         assertTrue(BalancedBrackets.hasBalancedBrackets("[]LaunchCode"));
         assertTrue(BalancedBrackets.hasBalancedBrackets("LaunchCode[]"));
     }
-//    @Test
-//    public void singleBracketsWithContentReturnsTrue(){
-//        assertTrue(BalancedBrackets.hasBalancedBrackets("[LaunchCode]"));
-//    }
+    @Test
+    public void singleOpeningBracketWithContentReturnsFalse(){
+        assertFalse(BalancedBrackets.hasBalancedBrackets("[LaunchCode"));
+    }
 
 }
