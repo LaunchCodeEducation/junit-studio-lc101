@@ -30,6 +30,11 @@ public class BalancedBrackets {
                 brackets--;
             }
         }
+        if(brackets == 0){
+            if(str.indexOf("[") > str.indexOf("]")){
+                brackets--;
+            }
+        }
         return brackets == 0;
     }
 }
