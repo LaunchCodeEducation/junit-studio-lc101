@@ -25,11 +25,13 @@ public class BalancedBracketsTest {
     @Test
     public void singleBracketsBreakingUpContentReturnsTrue(){
         assertTrue(BalancedBrackets.hasBalancedBrackets("Launch[Code]"));
+        assertTrue(BalancedBrackets.hasBalancedBrackets("Launch[C]ode"));
     }
-//    @Test
-//    public void singleBracketsWithContentsOutsideReturnsTrue(){
-//        assertTrue(BalancedBrackets.hasBalancedBrackets("[]LaunchCode"));
-//    }
+    @Test
+    public void singleBracketsWithContentsOutsideReturnsTrue(){
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[]LaunchCode"));
+        assertTrue(BalancedBrackets.hasBalancedBrackets("LaunchCode[]"));
+    }
 //    @Test
 //    public void singleBracketsWithContentReturnsTrue(){
 //        assertTrue(BalancedBrackets.hasBalancedBrackets("[LaunchCode]"));
