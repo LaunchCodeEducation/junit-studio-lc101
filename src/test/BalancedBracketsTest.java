@@ -22,10 +22,10 @@ public class BalancedBracketsTest {
     public void singleBracketsWithContentReturnsTrue(){
         assertTrue(BalancedBrackets.hasBalancedBrackets("[LaunchCode]"));
     }
-//    @Test
-//    public void singleBracketsBreakingUpContentReturnsTrue(){
-//        assertTrue(BalancedBrackets.hasBalancedBrackets("Launch[Code]"));
-//    }
+    @Test
+    public void singleBracketsBreakingUpContentReturnsTrue(){
+        assertTrue(BalancedBrackets.hasBalancedBrackets("Launch[Code]"));
+    }
 //    @Test
 //    public void singleBracketsWithContentsOutsideReturnsTrue(){
 //        assertTrue(BalancedBrackets.hasBalancedBrackets("[]LaunchCode"));
