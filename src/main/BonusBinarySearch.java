@@ -15,6 +15,11 @@ public class BonusBinarySearch {
         int right = sortedNumbers.length - 1;
         int left = 0;
         while (right >= left) {
+            if(n > right){
+                break;
+            }else if(n < left){
+                break;
+            }
             int mid = left + ((right - left) / 2);
             if (sortedNumbers[mid] > n) {
                 right = mid;
