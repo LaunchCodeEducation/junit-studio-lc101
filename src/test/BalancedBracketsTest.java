@@ -16,6 +16,11 @@ public class BalancedBracketsTest {
     }
 
     @Test
+    public void emptyStringIsTrue() {
+        assertTrue(BalancedBrackets.hasBalancedBrackets(""));
+    }
+
+    @Test
     public void onlyBracketsReturnsTrue() {
         assertTrue(BalancedBrackets.hasBalancedBrackets("[]"));
     }
@@ -28,11 +33,6 @@ public class BalancedBracketsTest {
     @Test
     public void outputIsFalseWithOneBracketMissing() {
         assertFalse(BalancedBrackets.hasBalancedBrackets("[Launchcode"));
-    }
-
-    @Test
-    public void outputIsFalseWithNoBrackets() {
-        assertFalse(BalancedBrackets.hasBalancedBrackets("Launchcode"));
     }
 
     @Test
@@ -79,4 +79,10 @@ public class BalancedBracketsTest {
     public void outputIsFalseWithSameNumberOfEachBracketAndOneMatchAtBeginning() {
         assertFalse(BalancedBrackets.hasBalancedBrackets("[]]]][[["));
     }
+
+    @Test
+    public void nestedBracketsReturnsTrue() {
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[[[]]]"));
+    }
+
 }

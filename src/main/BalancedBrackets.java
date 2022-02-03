@@ -21,29 +21,18 @@ public class BalancedBrackets {
      * @return true if balanced, false otherwise
      */
     public static boolean hasBalancedBrackets(String str) {
-        StringBuilder bracketsStringBuilder = new StringBuilder();
         int brackets = 0;
-        boolean matchedSet = false;
-        int count = 0;
+        boolean bracketsCounterWasNegative = false;
         for (char ch : str.toCharArray()) {
             if (ch == '[') {
-                bracketsStringBuilder.append("[");
                 brackets++;
-                count++;
             } else if (ch == ']') {
                 brackets--;
-                bracketsStringBuilder.append("]");
-                count++;
-            }
-            if (count == 2 && bracketsStringBuilder.toString().equals("[]")) {
-                matchedSet = true;
-                count = 0;
-                bracketsStringBuilder.delete(0, bracketsStringBuilder.length());
-            } else if (count == 2) {
-                matchedSet = false;
-                count = 0;
+                if(brackets < 0) {
+                    bracketsCounterWasNegative = true;
+                }
             }
         }
-        return matchedSet && brackets == 0;
+        return brackets == 0 && !bracketsCounterWasNegative ;
     }
 }
