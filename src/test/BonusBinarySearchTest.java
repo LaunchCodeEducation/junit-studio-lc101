@@ -25,10 +25,10 @@ public class BonusBinarySearchTest {
     public void greaterThanValueAtLastIndexReturnsTrue(){
         assertTrue(BonusBinarySearch.binarySearch(test_array,(test_array.length + 1)) == -1);
     }
-//    @Test
-//    public void nIsInArrayOfIntsReturnsTrue(){
-//        assertTrue(BonusBinarySearch.binarySearch(test_array,8) != -1);
-//    }
+    @Test
+    public void nIsInArrayOfIntsReturnsTrue(){
+        assertTrue(BonusBinarySearch.binarySearch(test_array,8) != -1);
+    }
 
 
 
