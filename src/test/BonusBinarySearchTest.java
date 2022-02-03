@@ -4,6 +4,8 @@ import org.junit.Before;
 import main.BonusBinarySearch;
 import org.junit.Test;
 
+import static org.junit.Assert.*;
+
 public class BonusBinarySearchTest {
     int[] test_array;
     @Before
@@ -14,5 +16,10 @@ public class BonusBinarySearchTest {
         }
     }
 
+    @Test
+    public void negativeNumberReturnsFalse(){
+        assertFalse(-5 < 1 && -5 < 16);
+//        assertEquals(-1,BonusBinarySearch.binarySearch(test_array,-5),.001);
+    }
 
 }
