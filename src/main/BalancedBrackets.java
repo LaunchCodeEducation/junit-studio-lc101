@@ -32,4 +32,12 @@ public class BalancedBrackets {
         }
         return brackets == 0;
     }
+
+    public static void main(String[] args) {
+        if(hasBalancedBrackets("[]")==true){
+            System.out.println("true");
+        }else{
+            System.out.println("false");
+        }
+    }
 }
